@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE INSCRIPCION PARA LOS PARTICIPANTES</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(imagenes/FIESTA.jpg);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-image: url(imagenes/FONDOROJ.jpg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: chartreuse;
+        }
+        .details {
+            margin: 20px 0;
+        }
+        .rsvp {
+            margin-top: 30px;
+        }
+        p {
+            color: burlywood;
+        }
+        label{
+            color: #e9e4e4;
+            text-anchor: middle;
+        }
+        h2{
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>COMPRA TU ENTRADA</h1>
+        <p class="details">Concierto de rojo</p>
+        <p class="details">Hora: 18:00</p>
+        <p class="details">Lugar: San jose, yo </p>
+
+        <div class="rsvp">
+            <form action="https://example.com/rsvp" method="post">
+                <label for="name">Nombre completo:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="edad">Edad:</label>
+                <input type="int">
+                <br><br>
+                <label for="sexo">Genero:</label>
+                <input type="text">
+                <br><br>
+                <label for="cont">Celular:</label>
+                <input type="int">
+                <br><br>
+                <label for="ciu">Ciudad:</label>
+                <input type="text">
+                <br><br>
+                <button type="submit">COMPRAR</button>
+                <a href="index.html"><h2>Volver</h2></a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
